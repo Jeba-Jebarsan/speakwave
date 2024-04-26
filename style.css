@@ -164,3 +164,54 @@ a span{
     font-size: 40px;
     color: #ff2963;
 }
+/* style.css */
+
+/* Center footer content */
+footer {
+    text-align: center;
+}
+
+/* Optional: Style the copyright notice */
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Adjust font size */
+}
+/* style.css */
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+    .hero {
+        padding: 20px; /* Add padding for better spacing on smaller screens */
+    }
+
+    .hero h1 {
+        font-size: 30px; /* Decrease font size for smaller screens */
+    }
+
+    textarea {
+        width: calc(100% - 40px); /* Adjust textarea width */
+        height: 150px; /* Reduce textarea height */
+        font-size: 14px; /* Decrease font size */
+    }
+
+    .row {
+        width: calc(100% - 20px); /* Adjust row width */
+        flex-wrap: wrap; /* Allow items to wrap */
+        gap: 10px; /* Add gap between items */
+    }
+
+    button {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 14px; /* Decrease font size */
+    }
+
+    select {
+        width: calc(50% - 10px); /* Adjust select width */
+        font-size: 14px; /* Decrease font size */
+    }
+
+    nav a {
+        font-size: 30px; /* Decrease font size for smaller screens */
+        padding: 10px 20px; /* Adjust padding */
+    }
+}
