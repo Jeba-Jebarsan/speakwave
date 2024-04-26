@@ -143,7 +143,7 @@ nav img {
 /* Logo styles */
 nav a {
     font-family: Arial, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff; /* White text color */
     margin: 0;
     padding: 10px 20px; /* Adjust padding as needed */
@@ -155,27 +155,17 @@ nav a {
 /* Optional: Adjust the size and padding of the logo for smaller screens */
 @media screen and (max-width: 900px) {
     nav a {
-        font-size: 40px;
+        font-size: 35px;
         padding: 10px 40px;
     }
 }
 
 a span{
-    font-size: 40px;
+    font-size: 30px;
     color: #ff2963;
 }
 /* style.css */
 
-/* Center footer content */
-footer {
-    text-align: center;
-}
-
-/* Optional: Style the copyright notice */
-footer p {
-    margin: 0; /* Remove default margin */
-    font-size: 14px; /* Adjust font size */
-}
 /* style.css */
 
 /* Adjustments for smaller screens */
