@@ -2,7 +2,7 @@
 <html>
 
 <head>
-
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text To Speech Converter - voice</title>
     <link rel="stylesheet" href="style.css">
@@ -16,14 +16,21 @@
         </nav>
         <h1>Text to speech <span>Converter</span></h1>
 
-
-        <textarea placeholder="Enter your text and let it come alive..."></textarea>
-        <div class="row ">
-            <select></select>
-            <button><img src="images/images/play.png ">Listen</button>
+        <textarea id="text-input" placeholder="Enter your text and let it come alive..."></textarea>
+        <div class="row">
+            <select id="voice-select">
+                <option disabled selected>Select a voice</option>
+            </select>
+            <button id="listen-btn"><img src="images/images/play.png">Listen</button>
+            <button id="stop-btn"><img src="/stop-3-512.png">Stop</button>
+            <label for="word-by-word">Word-by-Word:</label>
+            <input type="checkbox" id="word-by-word">
+            <button id="download-btn"><i class="fas fa-download"></i>Download</button>
         </div>
+        <div id="highlighted-text"></div>
+    </div>
 
-        <script src="script.js "></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
