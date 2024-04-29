@@ -206,3 +206,55 @@ textarea::placeholder {
     color: #ccc; /* Change color */
 }
 /* CSS for changing font style of typed text */
+/* CSS for desktop view */
+
+/* Hero section styles */
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('Default_text_to_voice_convertor_background_images_0 (1).jpg');
+    background-repeat: no-repeat;
+    background-size: 1745px; /* Adjust the background size to contain within the element */
+    background-position: center; /* Center the background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Additional CSS for mobile view */
+@media only screen and (max-width: 600px) {
+    /* Adjustments for mobile devices */
+    .hero {
+        background-size: cover; /* Cover the entire element with the background image */
+    }
+    
+    .hero h1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        margin-top: -30px; /* Adjust margin for smaller screens */
+        margin-bottom: 30px; /* Adjust margin for smaller screens */
+    }
+    
+    textarea {
+        width: 90%; /* Adjust width for smaller screens */
+        max-width: 90%; /* Adjust max width for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+        height: 200px; /* Adjust height for smaller screens */
+        margin-bottom: 20px; /* Adjust margin for smaller screens */
+    }
+    
+    .row {
+        width: 90%; /* Adjust width for smaller screens */
+        max-width: 90%; /* Adjust max width for smaller screens */
+    }
+    
+    button {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    
+    select {
+        height: 40px; /* Adjust height for smaller screens */
+    }
+}
